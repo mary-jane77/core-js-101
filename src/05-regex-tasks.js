@@ -31,8 +31,8 @@
  *
  * @return {RegExp}
  */
-function getRegexForGuid() {
-  throw new Error('Not implemented');
+function getRegexForGuid(v) {
+  return v.match();
 }
 
 
